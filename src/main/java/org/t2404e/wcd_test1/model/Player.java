@@ -7,12 +7,14 @@ public class Player {
     private String age;
     private int indexId;
 
+    // tên index (speed, strength, accurate)
     private String indexName;
+
+    private float indexValue;
 
     public int getPlayerId() {
         return playerId;
     }
-
 
     public void setPlayerId(int playerId) {
         this.playerId = playerId;
@@ -56,5 +58,13 @@ public class Player {
 
     public void setIndexName(String indexName) {
         this.indexName = indexName;
+    }
+
+    public float getIndexValue() {
+        return indexValue;
+    }
+
+    public void setIndexValue(float indexValue) {
+        this.indexValue = indexValue;
     }
 }

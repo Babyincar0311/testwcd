@@ -36,6 +36,7 @@
                         <th>Full Name</th>
                         <th>Age</th>
                         <th>Index</th>
+                        <th>Index Value</th>
                         <th style="width: 160px">Action</th>
                     </tr>
                     </thead>
@@ -46,11 +47,19 @@
                             <td>${p.name}</td>
                             <td>${p.fullName}</td>
                             <td>${p.age}</td>
+
                             <td>
                                 <span class="badge bg-info text-dark">
                                         ${p.indexName}
                                 </span>
                             </td>
+
+                            <td>
+                                <span class="badge bg-success">
+                                        ${p.indexValue}
+                                </span>
+                            </td>
+
                             <td>
                                 <a href="player?action=edit&id=${p.playerId}"
                                    class="btn btn-warning btn-sm">

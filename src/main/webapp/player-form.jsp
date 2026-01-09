@@ -60,14 +60,13 @@
                     <label class="form-label">Index Value</label>
                     <input type="number" step="any" class="form-control"
                            name="indexValue"
-                           value="${playerIndex.value}"
-                           placeholder="Enter index value">
+                           value="${player.indexValue}"
+                           placeholder="Enter index value" required>
 
                     <small class="text-muted">
                         Please enter value in allowed range
                     </small>
                 </div>
-
                 <!-- Buttons -->
                 <div class="d-flex justify-content-between">
                     <button class="btn btn-success">Save</button>
